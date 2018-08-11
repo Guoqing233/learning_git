@@ -18,7 +18,7 @@ $ git init
 
 要添加到版本库文件一定要放在learning_git目录下，放在其他地方会使git无法找到。
 
-把一个文件放到Git仓库只需要两个步骤：第一步，用"git add"命令高数git，现在要把文件添加到仓库
+把一个文件放到Git仓库只需要两个步骤：第一步，用"git add"命令告诉git，现在要把文件添加到仓库
 
 ``` 
 $ git add 文件名
@@ -40,7 +40,7 @@ $ git commit -m "some description"
 
 ```
 git reset --hard commit_id
-'''
+```'
 
 + 穿梭前，可用git log命令查看提交历史，以便确定回退到哪个版本。
 
